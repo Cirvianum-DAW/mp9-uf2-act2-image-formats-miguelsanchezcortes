@@ -21,7 +21,10 @@
             </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark: dark:border-gray-700">
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark: dark:border-gray-700">
+            <li>
+              <a href="/index.html" class="block py-2 px-3 text-gray-900 rounded   md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">index</a>
+            </li>
             <li>
               <a href="/logotip.html" class="block py-2 px-3 text-gray-900 rounded   md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">logotip</a>
             </li>
@@ -40,22 +43,35 @@
     </nav>
     <main class="text-base text-center p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
       <div>
+        <p>png</p>
         <img src="images/logotip.png" alt="Example 1" class="w-full" />
         <div class="image-info"></div>
       </div>
       <div>
+        <p>jpg</p>
         <img src="images/logotipJPG.jpg" alt="Example 2" class="w-full" />
         <div class="image-info"></div>
       </div>
       <div>
+        <p>gif</p>
         <img src="images/logotipGIF.gif" alt="Example 3" class="w-full" />
         <div class="image-info"></div>
       </div>
       <div>
-        <img src="images/transparency.png" alt="Example 3" class="w-full" />
+        <p>8 bits</p>
+        <img src="images/logotip8BITS.png" alt="Example 3" class="w-full" />
         <div class="image-info"></div>
       </div>
     </main>
+    <div class="p-10">
+      <h2>Questions:</h2>
+      <p>What format is the most optimal for this type of image and why?</p>
+      <p><b>The most optimal format is GIF because it is made of icons and logos.</b></p>
+      <p>Can its size be reduced even more?</p>
+      <p><b>if it can be reduced by changing the quality or quantity of bits.</b></p>
+      <p> Would it lose quality?</p>
+      <p><b>yes, it would lose quality</b></p>
+    </div>
     <script src="scripts/main.js"></script>
   </body>
 </html>
